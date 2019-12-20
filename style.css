@@ -1,0 +1,26 @@
+/* General */
+body {
+  background-image: url(./imgs/5-dots.png);
+  font-family: "Nunito", sans-serif;
+  color: #f5f5f5;
+}
+
+/* Navbar */
+#mainNavbar {
+  font-size: 1.5rem;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#mainNavbar .navbar-brand {
+  color: #ea1c2c;
+  font-size: 1.5rem;
+}
+
+#mainNavbar .nav-link {
+  color: #f5f5f5;
+}
+
+#mainNavbar .nav-link:hover {
+  color: #ea1c2c;
+}
