@@ -40,6 +40,12 @@ body {
   color: #ea1c2c;
 }
 
+/* Our js file */
+.navbar.scrolled {
+  background-color: #313131;
+  transition: background 300ms;
+}
+
 /* Section 1 */
 #section-one-group span {
   color: #ea1c2c;
@@ -64,3 +70,6 @@ body {
 }
 
 /* Section 4 */
+#section-four-group {
+  margin-bottom: 100px;
+}
