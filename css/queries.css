@@ -1,0 +1,7 @@
+@media (max-width: 1200px) {
+  /* Section 1 */
+  #section-one-group h1 {
+    font-weight: 100;
+    font-size: 3rem;
+  }
+}

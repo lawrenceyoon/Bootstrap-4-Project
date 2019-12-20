@@ -1,6 +1,6 @@
 /* General */
 body {
-  background-image: url(./imgs/5-dots.png);
+  background-image: url(../imgs/5-dots.png);
   font-family: "Nunito", sans-serif;
   color: #f5f5f5;
 }
@@ -8,8 +8,6 @@ body {
 /* Navbar */
 #mainNavbar {
   font-size: 1.5rem;
-  padding-top: 0px;
-  padding-bottom: 0px;
 }
 
 #mainNavbar .navbar-brand {
@@ -24,3 +22,15 @@ body {
 #mainNavbar .nav-link:hover {
   color: #ea1c2c;
 }
+
+/* Section 1 */
+#section-one-group span {
+  color: #ea1c2c;
+}
+
+#section-one-group h1 {
+  font-weight: 100;
+  font-size: 4rem;
+}
+
+/* Section 2 */

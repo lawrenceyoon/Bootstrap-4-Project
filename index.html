@@ -16,14 +16,15 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!-- My CSS -->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/queries.css">
 
     <title>Go DJ</title>
 
   </head>
   <body>
 
-    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md fixed-top">
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md fixed-top py-0">
       <a href="#" class="navbar-brand">DJ</a>
       <!-- Aria-label shows what hamburger icon does, it labels it for screen readers -->
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
@@ -43,6 +44,27 @@
         </ul>
       </div>
     </nav>
+
+    <!-- Section 1 -->
+    <section class="container-fluid px-0"><!-- Used container-fluid so it stretches to fill screen, but still spaces evenly with Bootstrap grid system -->
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div id="section-one-group" class="text-center d-none d-lg-block"><!-- Hide yo'self till large -->
+            <h1 class="">THE<span>/</span>DJ<span>/</span>LIFE</h1>
+            <h1 class="">THE<span>/</span>DJ<span>/</span>LIFE</h1>
+            <h1 class="">THE<span>/</span>DJ<span>/</span>LIFE</h1>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <img class="img-fluid" src="./imgs/main-dj.jpg" alt="DJ with Two Controllers">
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2 -->
+    <section class="container-fluid">
+      
+    </section>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
