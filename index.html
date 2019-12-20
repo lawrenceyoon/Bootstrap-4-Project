@@ -46,13 +46,13 @@
     </nav>
 
     <!-- Section 1 -->
-    <section class="container-fluid px-0"><!-- Used container-fluid so it stretches to fill screen, but still spaces evenly with Bootstrap grid system -->
+    <section id="section-one-group" class="container-fluid px-0"><!-- Used container-fluid so it stretches to fill screen, but still spaces evenly with Bootstrap grid system -->
       <div class="row align-items-center">
         <div class="col-lg-6">
-          <div id="section-one-group" class="text-center d-none d-lg-block"><!-- Hide yo'self till large -->
-            <h1 class="">THE<span>/</span>DJ<span>/</span>LIFE</h1>
-            <h1 class="">THE<span>/</span>DJ<span>/</span>LIFE</h1>
-            <h1 class="">THE<span>/</span>DJ<span>/</span>LIFE</h1>
+          <div class="text-center d-none d-lg-block"><!-- Hide yo'self till large -->
+            <a href="#section-two-group" class="d-block">THE<span>/</span>DJ<span>/</span>LIFE</a>
+            <a href="#section-three-group" class="d-block">THE<span>/</span>DJ<span>/</span>LIFE</a>
+            <a href="#section-four-group" class="d-block">THE<span>/</span>DJ<span>/</span>LIFE</a>
           </div>
         </div>
         <div class="col-lg-6">
@@ -62,8 +62,66 @@
     </section>
 
     <!-- Section 2 -->
-    <section class="container-fluid">
-      
+    <section id="section-two-group" class="container-fluid px-0">
+      <div class="row align-items-center">
+
+        <div class="col-md-6 order-2 order-md-1"> <!-- Bootstrap order lets us choose which col shows first: xs to small will second, then on md and up will be first -->
+          <img class="img-fluid" src="./imgs/dj-two.jpg" alt="Home Section">
+        </div>
+
+        <div class="col-md-6 text-center order-1 order-md-2">
+          <div class="row justify-content-center"> <!-- Nested within another column (get another 12 cols). Also, justify-content-center centers without having to add another col-1 before&after col-10 -->
+            <div class="blurb col-10 col-lg-8">
+              <h2>THE DJ LIFE</h2>
+              <i class="fas fa-headphones fa-3x d-none d-lg-block py-3"></i>
+              <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur quam nesciunt iusto dolor laboriosam cumque sapiente neque. Nesciunt sed qui dicta voluptatem repudiandae doloribus aperiam, sit aspernatur optio commodi iusto illo deserunt tenetur eaque ullam voluptas, consequuntur natus. Dolorem asperiores pariatur qui, vero hic adipisci sint illum provident sunt. Enim.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Section 3 -->
+    <section id="section-three-group" class="container-fluid px-0">
+      <div class="row align-items-center">
+
+        <div class="col-md-6 text-center">
+          <div class="row justify-content-center"> <!-- Nested within another column (get another 12 cols). Also, justify-content-center centers without having to add another col-1 before&after col-10 -->
+            <div class="blurb col-10 col-lg-8">
+              <h2>THE DJ LIFE</h2>
+              <i class="fas fa-headphones fa-3x d-none d-lg-block py-3"></i>
+              <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur quam nesciunt iusto dolor laboriosam cumque sapiente neque. Nesciunt sed qui dicta voluptatem repudiandae doloribus aperiam, sit aspernatur optio commodi iusto illo deserunt tenetur eaque ullam voluptas, consequuntur natus. Dolorem asperiores pariatur qui, vero hic adipisci sint illum provident sunt. Enim.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6"> <!-- Bootstrap order lets us choose which col shows first: xs to small will second, then on md and up will be first -->
+          <img class="img-fluid" src="./imgs/dj-three.jpg" alt="Home Section">
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Section 4 -->
+    <section id="section-four-group" class="container-fluid px-0">
+      <div class="row align-items-center">
+
+        <div class="col-md-6 order-2 order-md-1"> <!-- Bootstrap order lets us choose which col shows first: xs to small will second, then on md and up will be first -->
+          <img class="img-fluid" src="./imgs/dj-four.jpg" alt="Home Section">
+        </div>
+
+        <div class="col-md-6 text-center order-1 order-md-2">
+          <div class="row justify-content-center"> <!-- Nested within another column (get another 12 cols). Also, justify-content-center centers without having to add another col-1 before&after col-10 -->
+            <div class="blurb col-10 col-lg-8">
+              <h2>THE DJ LIFE</h2>
+              <i class="fas fa-headphones fa-3x d-none d-lg-block py-3"></i>
+              <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur quam nesciunt iusto dolor laboriosam cumque sapiente neque. Nesciunt sed qui dicta voluptatem repudiandae doloribus aperiam, sit aspernatur optio commodi iusto illo deserunt tenetur eaque ullam voluptas, consequuntur natus. Dolorem asperiores pariatur qui, vero hic adipisci sint illum provident sunt. Enim.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </section>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
