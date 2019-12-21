@@ -1,7 +1,17 @@
+@media (max-width: 767px) {
+  /* Section 1 */
+}
+
 @media (max-width: 1200px) {
   /* Section 1 */
-  #section-one-group a {
+  #home-section-one-group a {
     font-weight: 100;
     font-size: 3rem;
+  }
+}
+
+@media (min-width: 1199px) {
+  #about-section-one-group .about-text {
+    padding: 60px 0 90px 0;
   }
 }
