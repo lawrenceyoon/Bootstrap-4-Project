@@ -6,11 +6,24 @@
   }
 }
 
+/* So that navbar less than md won't clash with first image on each page */
+/* Section 1 */
 @media (max-width: 767px) {
-  /* Section 1 */
+  #home-section-one-group {
+    margin-top: 200px;
+  }
+
+  #about-section-one-group {
+    margin-top: 200px;
+  }
+
+  #ticket-section-one-group {
+    margin-top: 200px;
+  }
 }
 
 @media (min-width: 1199px) {
+  /* Section 1 */
   #about-section-one-group .about-text {
     padding: 60px 0 90px 0;
   }

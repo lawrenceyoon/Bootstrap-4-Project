@@ -1,26 +1,12 @@
-/***** MAIN PAGE *****/
-/* General */
+/* General (All pages) */
 body {
   background-image: url(../imgs/5-dots.png);
   font-family: "Nunito", sans-serif;
   color: #b2b2b2;
 }
 
-.blurb h2 {
-  color: #ea1c2c;
-  font-weight: 100;
-  font-size: 2.5rem;
-}
-
-.blurb i {
+i {
   color: #808080;
-}
-
-.blurb p {
-  color: #b2b2b2;
-  font-weight: 100;
-  font-size: 1.125rem;
-  line-height: 2;
 }
 
 /* Navbar */
@@ -45,6 +31,21 @@ body {
 .navbar.scrolled {
   background-color: #313131;
   transition: background 300ms;
+}
+
+/***** HOME PAGE *****/
+/* General */
+.blurb h2 {
+  color: #ea1c2c;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+.blurb p {
+  color: #b2b2b2;
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2;
 }
 
 /* Section 1 */
@@ -83,11 +84,21 @@ body {
   margin-top: 100px;
 }
 
+/* Section 2 */
+#about-section-two-group {
+  margin-bottom: 50px;
+}
+
 #about-section-one-group .about-text {
   padding: 40px 0 80px 0;
 }
 
-/* Section 2 */
-#about-section-two-group .card {
+/***** TICKET PAGE *****/
+/* Section 1 */
+#ticket-section-one-group {
+  margin-top: 100px;
+}
+
+#ticket-section-one-group .card {
   background-color: transparent;
 }
